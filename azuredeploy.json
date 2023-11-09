@@ -149,11 +149,162 @@
                 "description": "The location of resources"
             },
             "defaultValue": "https://raw.githubusercontent.com/javiersoriano/sentinel-all-in-one/master/Sentinel-All-In-One/"
-        }
+        },
+    "mspOfferName": {
+      "type": "string",
+      "defaultValue": "Microsoft Sentinel Lighthouse"
     },
-    "variables": {
+    "mspOfferDescription": {
+      "type": "string",
+      "defaultValue": "TEST OFFER DESCRIPTION"
+    },
+    "managedByTenantId": {
+      "type": "string",
+      "defaultValue":"36386a8c-c222-407a-9bc9-af2f1b38227f"
+    },
+    "authorizations": {
+      "type": "array",
+      "defaultValue": 
+      [
+        {
+          "principalId": "7b13a563-0edb-4e9c-a7a9-3486a1d7140d",
+          "principalIdDisplayName": "Azure Security Insights - Microsoft Sentinel Automation Contributor",
+          "roleDefinitionId": "f4c81013-99ee-4d62-a7ee-b3f1f648599a"
+      },
+  {
+          "principalId": "b5d1f104-92cf-4f8a-b728-cbb2fb91e021",
+          "principalIdDisplayName": "ITCSecure-SOC - Reader Role",
+          "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+      },
+  {
+          "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
+          "principalIdDisplayName": "ITCSecure-SOC - MSR Delete Role",
+          "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46"
+      },
+  {
+          "principalId": "b5d1f104-92cf-4f8a-b728-cbb2fb91e021",
+          "principalIdDisplayName": "ITCSecure-SOC - Sentinel-Responder",
+          "roleDefinitionId": "3e150937-b8fe-4cfb-8069-0eaf05ecd056"
+      },
+  {
+          "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
+          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Lapp Contributor",
+          "roleDefinitionId": "87a39d53-fc1b-424a-814c-f7e04687dc9e"
+      },
+  {
+          "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
+          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Log Contributor",
+          "roleDefinitionId": "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
+      },
+  {
+          "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
+          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Monitoring Contributor",
+          "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
+      },
+  {
+          "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
+          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Sentinel Contributor",
+          "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade"
+      }
+      ]
+
+    },
+    "eligibleAuthorizations": {
+      "type": "array",
+      "defaultValue": 
+      [
+        {
+          "justInTimeAccessPolicy": {
+            "multiFactorAuthProvider": "Azure",
+            "maximumActivationDuration": "PT4H"
+          },
+  
+          "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
+          "principalIdDisplayName": "ITCSecure-SOC - Monitoring Contributor",
+          "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
+  
+        },
+        {
+          "justInTimeAccessPolicy": {
+            "multiFactorAuthProvider": "Azure",
+            "maximumActivationDuration": "PT4H"
+          },
+          "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
+          "principalIdDisplayName": "ITCSecure-SOC – Lapp Contributor",
+          "roleDefinitionId": "87a39d53-fc1b-424a-814c-f7e04687dc9e"
+  
+        },
+        {
+          "justInTimeAccessPolicy": {
+            "multiFactorAuthProvider": "Azure",
+            "maximumActivationDuration": "PT4H"
+          },
+          "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
+          "principalIdDisplayName": "ITCSecure-SOC – Log contributor",
+          "roleDefinitionId": "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
+  
+        },
+        {
+          "justInTimeAccessPolicy": {
+            "multiFactorAuthProvider": "Azure",
+            "maximumActivationDuration": "PT4H"
+          },
+          "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
+          "principalIdDisplayName": "ITCSecure-SOC – Sentinel Contributor",
+          "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade"
+  
+        },
+        {
+          "justInTimeAccessPolicy": {
+            "multiFactorAuthProvider": "Azure",
+            "maximumActivationDuration": "PT4H"
+          },
+          "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
+          "principalIdDisplayName": "ITCSecure-SOC – Template Spec Contributor",
+          "roleDefinitionId": "1c9b6475-caf0-4164-b5a1-2142a7116f4b"
+  
+        },
+        {
+          "justInTimeAccessPolicy": {
+            "multiFactorAuthProvider": "Azure",
+            "maximumActivationDuration": "PT4H"
+          },
+          "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
+          "principalIdDisplayName": "ITCSecure-SOC – Support Request Contributor",
+          "roleDefinitionId": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e"
+  
+        }
+      ]
+    }
+  },
+  "variables": {
+    "mspRegistrationName": "[guid(parameters('mspOfferName'))]",
+    "mspAssignmentName": "[guid(parameters('mspOfferName'))]"
     },
     "resources": [
+            {
+      "type": "Microsoft.ManagedServices/registrationDefinitions",
+      "apiVersion": "2020-02-01-preview",
+      "name": "[variables('mspRegistrationName')]",
+      "properties": {
+        "registrationDefinitionName": "[parameters('mspOfferName')]",
+        "description": "[parameters('mspOfferDescription')]",
+        "managedByTenantId": "[parameters('managedByTenantId')]",
+        "authorizations": "[parameters('authorizations')]",
+        "eligibleAuthorizations": "[parameters('eligibleAuthorizations')]"
+      }
+    },
+    {
+      "type": "Microsoft.ManagedServices/registrationAssignments",
+      "apiVersion": "2022-10-01",
+      "name": "[variables('mspAssignmentName')]",
+      "properties": {
+        "registrationDefinitionId": "[subscriptionResourceId('Microsoft.ManagedServices/registrationDefinitions', variables('mspRegistrationName'))]"
+      },
+      "dependsOn": [
+        "[subscriptionResourceId('Microsoft.ManagedServices/registrationDefinitions', variables('mspRegistrationName'))]"
+      ]
+    },
         {
             "type": "Microsoft.Resources/resourceGroups",
             "apiVersion": "2020-06-01",
