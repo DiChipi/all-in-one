@@ -173,37 +173,37 @@
       },
   {
           "principalId": "b5d1f104-92cf-4f8a-b728-cbb2fb91e021",
-          "principalIdDisplayName": "ITCSecure-SOC - Reader Role",
+          "principalIdDisplayName": "demoReader Role",
           "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
       },
   {
           "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
-          "principalIdDisplayName": "ITCSecure-SOC - MSR Delete Role",
+          "principalIdDisplayName": "demoMSR Delete Role",
           "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46"
       },
   {
           "principalId": "b5d1f104-92cf-4f8a-b728-cbb2fb91e021",
-          "principalIdDisplayName": "ITCSecure-SOC - Sentinel-Responder",
+          "principalIdDisplayName": "Sentinel-Responder",
           "roleDefinitionId": "3e150937-b8fe-4cfb-8069-0eaf05ecd056"
       },
   {
           "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
-          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Lapp Contributor",
+          "principalIdDisplayName": "DEMO - Lapp Contributor",
           "roleDefinitionId": "87a39d53-fc1b-424a-814c-f7e04687dc9e"
       },
   {
           "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
-          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Log Contributor",
+          "principalIdDisplayName": "DEMO - - Log Contributor",
           "roleDefinitionId": "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
       },
   {
           "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
-          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Monitoring Contributor",
+          "principalIdDisplayName": "DEMO - - Monitoring Contributor",
           "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
       },
   {
           "principalId": "bfb0e5c2-239b-414f-a445-11c104ec20e0",
-          "principalIdDisplayName": "ITCSecure-SPN-SOC-SOAR - Sentinel Contributor",
+          "principalIdDisplayName": "DEMO -- Sentinel Contributor",
           "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade"
       }
       ]
@@ -220,7 +220,7 @@
           },
   
           "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
-          "principalIdDisplayName": "ITCSecure-SOC - Monitoring Contributor",
+          "principalIdDisplayName": "demoMonitoring Contributor",
           "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
   
         },
@@ -230,7 +230,7 @@
             "maximumActivationDuration": "PT4H"
           },
           "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
-          "principalIdDisplayName": "ITCSecure-SOC – Lapp Contributor",
+          "principalIdDisplayName": "DEMO Lapp Contributor",
           "roleDefinitionId": "87a39d53-fc1b-424a-814c-f7e04687dc9e"
   
         },
@@ -240,7 +240,7 @@
             "maximumActivationDuration": "PT4H"
           },
           "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
-          "principalIdDisplayName": "ITCSecure-SOC – Log contributor",
+          "principalIdDisplayName": "DEMO Log contributor",
           "roleDefinitionId": "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
   
         },
@@ -250,7 +250,7 @@
             "maximumActivationDuration": "PT4H"
           },
           "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
-          "principalIdDisplayName": "ITCSecure-SOC – Sentinel Contributor",
+          "principalIdDisplayName": "DEMO Sentinel Contributor",
           "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade"
   
         },
@@ -260,7 +260,7 @@
             "maximumActivationDuration": "PT4H"
           },
           "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
-          "principalIdDisplayName": "ITCSecure-SOC – Template Spec Contributor",
+          "principalIdDisplayName": "DEMO Template Spec Contributor",
           "roleDefinitionId": "1c9b6475-caf0-4164-b5a1-2142a7116f4b"
   
         },
@@ -270,7 +270,7 @@
             "maximumActivationDuration": "PT4H"
           },
           "principalId": "4d75ad5f-edb0-43bc-a23d-7971b61ce81a",
-          "principalIdDisplayName": "ITCSecure-SOC – Support Request Contributor",
+          "principalIdDisplayName": "DEMO Support Request Contributor",
           "roleDefinitionId": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e"
   
         }
