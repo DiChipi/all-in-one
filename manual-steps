@@ -1,4 +1,5 @@
 - Add automation
 - Change legacy AD connection
 - UEBA enable connectors [audit logs, Security Events, signin logs]
+- Disable noisy rules - (MFA deny and others)
 
