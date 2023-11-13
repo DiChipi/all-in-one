@@ -44,10 +44,6 @@ There are two versions of Microsoft Sentinel All-in-One:
 | -------------------------------------------------- | ------------ | -------- |
 | Subscription scope                                 | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDiChipi%2Fall-in-one%2Fmain%2Fazuredeploy.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FDiChipi%2Fall-in-one%2Fmain%2FcreateUiDefinition.json)   | Microsoft Sentinel Contributor as a minimum |
 
-| All-In-One version                                 | Deploy       | Permissions |
-| -------------------------------------------------- | ------------ | -------- |
-| Lighthouse offer                                   | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDiChipi%2Fall-in-one%2Fmain%2Fazuredeploy.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FDiChipi%2Fall-in-one%2Fmain%2FcreateUiDefinition.json)   | Microsoft Sentinel Contributor as a minimum |
-
 
 ## Supported connectors
 
