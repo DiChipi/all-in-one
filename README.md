@@ -45,7 +45,10 @@ There are two versions of Microsoft Sentinel All-in-One:
 | Subscription scope                                 | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FDiChipi%2Fall-in-one%2Fmain%2Fazuredeploy.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FDiChipi%2Fall-in-one%2Fmain%2FcreateUiDefinition.json)   | Microsoft Sentinel Contributor as a minimum |
 
 
-| Azure Lighthouse + Azure AD PIM - Subscription Deployment  | onboard a *subscription* using **Azure AD PIM** | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Lighthouse-samples%2Fmaster%2Ftemplates%2Fdelegated-resource-management-eligible-authorizations%2Fsubscription%2Fsubscription.json) | [templates](https://github.com/Azure/Azure-Lighthouse-samples/tree/master/templates/delegated-resource-management-eligible-authorizations/subscription)
+| Azure Lighthouse + Azure AD PIM - Subscription Deployment  | onboard a *subscription* using **Azure AD PIM** | 
+| All-In-One version                                 | Deploy       | Permissions |
+| -------------------------------------------------- | ------------ | -------- |
+| Subscription scope                                 | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Lighthouse-samples%2Fmaster%2Ftemplates%2Fdelegated-resource-management-eligible-authorizations%2Fsubscription%2Fsubscription.json) | [templates](https://github.com/Azure/Azure-Lighthouse-samples/tree/master/templates/delegated-resource-management-eligible-authorizations/subscription)
 
 
 
