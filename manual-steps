@@ -5,6 +5,6 @@ Additions
 - Windows Forwarded Events
 
 Changes
-- Change legacy AD connection
+- Change legacy activity connection - solution create policy and deploy as code.
 - UEBA enable connectors [audit logs, Security Events, signin logs]
 - Disable noisy rules - (MFA deny and others)
