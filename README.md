@@ -49,6 +49,12 @@ There are two versions of Microsoft Sentinel All-in-One:
 | -------------------------------------------------- | ------------ | ----------- | ----------- |
 | Subscription scope                                 | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Lighthouse-samples%2Fmaster%2Ftemplates%2Fdelegated-resource-management-eligible-authorizations%2Fsubscription%2Fsubscription.json) | [templates](https://github.com/Azure/Azure-Lighthouse-samples/tree/master/templates/delegated-resource-management-eligible-authorizations/subscription)| Owner
 
+
+| Default Authorizations                             |  Deploy      | Templates   | Permissions |
+| -------------------------------------------------- | ------------ | ----------- | ----------- |
+| Default Eligible Authorizations                    |              |             |             |
+
+
 | Azure Lighthouse + Azure AD PIM                    |  Deploy      | Templates   | Permissions |
 | -------------------------------------------------- | ------------ | ----------- | ----------- |
 | Resource group scope                               | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Lighthouse-samples%2Fmaster%2Ftemplates%2Fdelegated-resource-management-eligible-authorizations%2Frg%2Frg.json) | [templates](https://github.com/Azure/Azure-Lighthouse-samples/tree/master/templates/delegated-resource-management-eligible-authorizations/rg)| Owner
